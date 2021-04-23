@@ -33,7 +33,7 @@ export default function Work() {
           placeholderSrc={elem.imgPlaceholder}
           src={elem.img}
           alt="phone prototype"
-          className="m-24 transtion duration-2000 ease-in-out z-10  md:w-3/5 w-4/5"
+          className="m-20 transtion duration-2000 ease-in-out z-10  md:w-3/5 w-4/5"
         />
         <div
           className="transtion duration-2000 ease-in-out p-10 max-w-xl lg:max-w-3xl rounded-lg hidden md:block"
