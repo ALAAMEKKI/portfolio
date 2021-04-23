@@ -31,7 +31,7 @@ export default function Header() {
         </div>
         
         
-        <div className="font-dosis w-full md:w-3/5 text-center md:text-left ">
+        <div className="font-dosis w-full md:w-3/5 text-center md:text-left mt-20 ">
           <h2
             className={`text-3xl md:text-4xl lg:text-6xl text-white font-bold transform ${
               animated ? "translate-y-0" : styleTranslate
