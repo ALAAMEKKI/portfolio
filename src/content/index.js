@@ -116,7 +116,7 @@ export default {
   contact: {
     title: 'Ping Me!',
     desc:
-      "I really hope that you got a small idea of who I am .It will be awesome to collaborate and work with other people, that's why I provided you with  my contacts and where you can find me on social media and most importantly on github.You can reach out to me at anytime.",
+      "I really hope that you got a small idea of who I am .It will be awesome to collaborate and work with other people, that's why I provided you with  my contacts and where you can find me on social media and most importantly on Github.You can reach out to me at anytime.",
     socials: [
       {
         alt: 'facebook',
