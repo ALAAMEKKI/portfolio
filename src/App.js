@@ -16,6 +16,7 @@ function App() {
       <footer  className=" text-center py-8  bg-gray-900 ">   
             <div>
                 <p className="text-white text-bold text-label-subtitle">Made by Alaa Mekki with React.js & Tailwind.css</p>
+                <p className="text-red-800  text-label-subtitle">V1.0.0</p>
                 
             </div>
         </footer>
