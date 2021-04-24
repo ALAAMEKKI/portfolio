@@ -15,7 +15,7 @@ export default function Contact() {
       <div
         style={{
           minHeight: '50vh',
-          background: '#091C29',
+          background: '#111827',
         }}
         className="w-full md:w-4/5 md:rounded-xl shadow-2xl flex md:flex-row flex-col-reverse justify-around items-center"
       >
@@ -25,7 +25,7 @@ export default function Contact() {
           placeholderSrc={content.contact.imgPlaceholder}
           alt="profile"
           width="300px"
-          className="mt-10 transtion duration-2000 ease-in-out mx-auto"
+          className="mt-10 h-full transtion duration-2000 ease-in-out mx-auto   "
         />
         <div className="font-dosis w-4/5 md:w-2/5 mt-5 transtion duration-2000">
           <h1
@@ -49,17 +49,25 @@ export default function Contact() {
           >
             {content.contact.socials.map((social, index) => {
               return (
+                
+                <a href= {social.link}>
                 <LazyLoadImage
                   effect="blur"
-                  className="m-2"
+                  className="m-2 cursor-pointer"
                   width="50px"
                   key={index}
                   src={social.img}
                   alt={social.alt}
                 />
+                </a>
+                
               );
             })}
+            
+                
           </div>
+          <br></br>
+          <p className=' text-white family-dosis'> Email : </p><p className=' text-xl text-white font-bold'>alaamekki01@gmail.com</p>
         </div>
       </div>
     </div>

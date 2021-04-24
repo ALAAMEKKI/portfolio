@@ -27,9 +27,35 @@ export default function Stack() {
           ))}
         </div>
       </div>
-      <p className="mt-10 mb-10 w-11/12 md:max-w-xl text-center inline-block text-xl md:text-2xl font-dosis ">
-        {content.stack.desc}.
+      <p className="mt-24 mb-10 w-11/12 md:max-w-xl text-gray-700 text-4xl md:text-4xl font-dosis ">
+        ➔ Skills:
+        
+      <span className=" mt-4 text-lg flex text-gray-700 dark:text-gray-100  p-4 font-bold   ">
+        Javascript
+      </span>
+      <div className="w-11/12 h-4 bg-white md:max-w-xl rounded-full animate-bounce  ">
+        <div className="w-11/12 h-full text-center text-xs text-white bg-gray-900 rounded-full"></div>
+      </div>
+      <span className="text-lg inline-block text-gray-700 dark:text-gray-100 p-4">
+       Typescript
+      </span>
+      <div className="w-11/12 h-4 bg-white md:max-w-xl rounded-full mt-2 animate-bounceFirst">
+        <div className="w-8/12 h-full text-center text-xs text-white bg-gray-900 rounded-full" ></div>
+      </div>
+      <span className="text-lg inline-block text-gray-700 dark:text-gray-100 p-4">
+      Reactjs & Vuejs
+      </span>
+      <div className="w-11/12 h-4 bg-white md:max-w-xl rounded-full animate-bounce  ">
+        <div className="w-10/12 h-full text-center text-xs text-white bg-gray-900 rounded-full"></div>
+      </div>
+      <span className="text-lg inline-block text-gray-700 dark:text-gray-100 p-4">
+        Nodejs & Express
+      </span>
+      <div className="w-11/12 h-4 bg-white md:max-w-xl rounded-full mb-20 animate-bounceFirst">
+        <div className="w-10/12 h-full text-center text-xs text-white bg-gray-900 rounded-full mb-20"></div>
+      </div>
       </p>
+      
     </div>
   );
 }

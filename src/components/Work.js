@@ -15,7 +15,7 @@ export default function Work() {
       }}
       id="mywork"
     >
-      <h1 className=" text-gray-900 text-5xl font-dosis  font-bold">Projects 
+      <h1 className=" mt-10 text-gray-900 text-5xl font-dosis  font-bold">Projects 
       
       <Typical
               steps={content.header.typicalwork}
@@ -27,16 +27,16 @@ export default function Work() {
       {content.work.map((elem,i)=>(
 
      
-      <div index = {i} className="mb-24 flex flex-col md:flex-row justify-between items-center w-11/12 ">
+      <div index = {i} className="mb-24 mt-24 flex flex-col  md:flex-row justify-between items-center w-10/12 ">
         <LazyLoadImage
           effect="blur"
           placeholderSrc={elem.imgPlaceholder}
           src={elem.img}
           alt="phone prototype"
-          className="m-20 transtion duration-2000 ease-in-out z-10  md:w-3/5 w-4/5"
+          className="p-4 mr-10 transtion duration-2000 ease-in-out z-10  md:w-3.5/5 w-4/5"
         />
         <div
-          className="transtion duration-2000 ease-in-out p-10 max-w-xl lg:max-w-3xl rounded-lg hidden md:block"
+          className="transtion duration-2000 ease-in-out p-1 max-w-xl lg:max-w-3xl rounded-lg hidden md:block"
           style={{
             border: '1px solid #e5ecf9',
             transform: animated
@@ -80,19 +80,22 @@ const ProjectDetail = (props) => {
       >
         {props.element.desc}
       </p>
-      <button
+     <a href = {props.element.link} target="_blank" rel="noopener noreferrer" >
+        
+         <button
         className={`${
           animated ? '' : 'translate-y-10 opacity-0'
         } transform transition duration-2000  px-20 py-3 m-4 bg-gray-900 inline-block flex justify-around text-white rounded-lg shadow-2xl`}
-      >
-        <img
-          src="https://timo.engineer/assets/icons/rocket.svg"
-          alt="rocket"
-          className="mr-5"
-        />
+      > 
+        <i
+          class="fa fa-github mr-5 "
+          style={{
+            fontSize: "30px",
+          }}
+        ></i>
         <p className="text-lg">Github</p>
       </button>
-     
+      </a>
       
     </div>
   );

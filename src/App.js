@@ -13,7 +13,14 @@ function App() {
       <Work />
       <Stack />
       <Contact />
+      <footer  className=" text-center py-8  bg-gray-900 ">   
+            <div>
+                <p className="text-white text-bold text-label-subtitle">Made by Alaa Mekki with React.js & Tailwind.css</p>
+                
+            </div>
+        </footer>
     </>
+    
   );
 }
 

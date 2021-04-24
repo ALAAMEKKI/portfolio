@@ -20,11 +20,11 @@ export default function Header() {
       id="header"
     >
       <div className="flex flex-col items-center justify-center md:flex-row-reverse md:w-10/12 md:justify-between">
-        <div className="  border-4 border-white-300 w-full md:w-2/6 ">
+        <div className="   border-white-300 w-full md:w-2/6 ">
           <LazyLoadImage
             src={content.header.img}
             alt="profile"
-            className={` w-screen     mx-auto`}
+            className={` w-screen border-4  mx-auto`}
             effect="blur"
             placeholderSrc={content.header.imgPlaceholder}
           />
