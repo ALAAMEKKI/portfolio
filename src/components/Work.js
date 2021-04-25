@@ -30,7 +30,6 @@ export default function Work() {
       <div index = {i} className="mb-24 mt-24 flex flex-col  md:flex-row justify-between items-center w-10/12 ">
         <LazyLoadImage
           effect="blur"
-          placeholderSrc={elem.imgPlaceholder}
           src={elem.img}
           alt="phone prototype"
           className="p-4 mr-10 transtion duration-2000 ease-in-out z-10  md:w-3.5/5 w-4/5"

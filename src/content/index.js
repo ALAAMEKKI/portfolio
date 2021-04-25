@@ -29,8 +29,6 @@ export default {
   work: [{
     title: 'Projects',
     img: process.env.PUBLIC_URL + '/assets/eventiny2.png',
-    imgPlaceholder:
-      '',
     projectName: 'EventinyTN @Rebootkamp',
     desc:
       `Realization of a web application (online event box) that allows the user to consult, participate in events, buy tickets, pay for marketing solutions for social networks, or become an organizer to publish events.  
@@ -45,8 +43,6 @@ export default {
   {
   title: 'Projects',
     img: process.env.PUBLIC_URL + '/assets/catwalk1.jpg',
-    imgPlaceholder:
-      '',
     projectName: 'Catwalk @Rebootkamp',
     desc:
       `Group Project. (Developer)
@@ -58,8 +54,6 @@ export default {
 {
   title: 'Projects',
     img: process.env.PUBLIC_URL + '/assets/logo.png',
-    imgPlaceholder:
-      '',
     projectName: 'TyreBox @Rebootkamp',
     desc:
     `Realization of a web application that allows the user to consult the prices of tires in stock.
@@ -141,7 +135,6 @@ export default {
     ],
     img:
       'https://www.artistakshay.com/wp-content/uploads/2020/02/contact-me.png',
-    imgPlaceholder:
-      ''
+    
   },
 };
